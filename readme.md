@@ -1,31 +1,32 @@
-# 🧞 Simsimsalabim - O Gênio das Contas
+# 🎓 Calculadora de Médias Dinâmica
 
-Este projeto é um validador de formulário interativo que utiliza lógica de programação em JavaScript para comparar valores numéricos. O objetivo é garantir que o **Valor B** inserido seja sempre maior que o **Valor A**.
+Uma aplicação web funcional que permite ao usuário registrar atividades escolares, inserir notas e calcular a média final automaticamente, fornecendo um feedback visual imediato sobre a aprovação.
 
 ---
 
 # 📝 Resumo (Resume)
-O projeto demonstra a manipulação do DOM (Document Object Model), tratamento de eventos de formulário e lógica de validação condicional. É um exemplo prático de como fornecer feedback visual imediato ao usuário (mensagens de sucesso/erro) utilizando CSS e JS.
+Este projeto foca na manipulação avançada do DOM e na lógica de cálculo com Arrays. A calculadora valida se o aluno foi aprovado (média ≥ 7) ou reprovado, inserindo ícones e classes CSS dinamicamente na tabela conforme os dados são processados.
 
 ## 🚀 Tecnologias e Links (Technologies & Links)
 
-[![Html](https://img.shields.io/badge/Html-000?style=for-the-badge&logo=html&logoColor=4F0199)](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics)
-[![Css](https://img.shields.io/badge/Css-000?style=for-the-badge&logo=css&logoColor=4F0199)](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)
-[![JavaScript](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript&logoColor=4F0199)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction)
-[![MarkDown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=4F0199)](https://www.markdownguide.org/getting-started/)
+[![Html](https://img.shields.io/badge/Html-000?style=for-the-badge&logo=html&logoColor=4F0199)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![Css](https://img.shields.io/badge/Css-000?style=for-the-badge&logo=css&logoColor=4F0199)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript&logoColor=4F0199)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![Google Fonts](https://img.shields.io/badge/Google_Fonts-000?style=for-the-badge&logo=googlefonts&logoColor=4F0199)](https://fonts.google.com/)
 
 ## 📋 Funcionalidades do Projeto
-* **Validação de Formulário:** Impede o envio se a condição lógica ($B > A$) não for atendida.
-* **Manipulação de CSS via JS:** As mensagens de erro e sucesso são alternadas dinamicamente usando `display: block` e `none`.
-* **Event.preventDefault():** Garante que a validação ocorra sem o refresh da página.
-* **Feedback Visual:** Uso de cores distintas (Verde para sucesso e Vermelho para erro) para melhorar a experiência do usuário.
+* **Adição Dinâmica:** Adiciona novas linhas à tabela sem recarregar a página.
+* **Cálculo de Média:** Função que percorre um Array de notas e calcula a média aritmética.
+* **Feedback por Ícones:** Exibe emojis/imagens diferentes para notas acima ou abaixo da média.
+* **Estilização Condicional:** Aplica cores (verde/vermelho) no resultado final dependendo do status de aprovação.
+* **Tipografia:** Uso da fonte *Roboto* via Google Fonts para uma interface limpa.
 
 ---
 
 # 👨‍💻 Sobre mim (About Me)
-Olá, meu nome é **Kaio**, tenho 21 anos. Sou um desenvolvedor focado em **Back-End com Python**, mas com sólidos conhecimentos em tecnologias Web como **Javascript, HTML, CSS e Node.JS**. 
+Olá, meu nome é **Kaio**, tenho 22 anos. Atualmente estou me especializando na área de **Back-End com Python**, mas possuo domínio em tecnologias Web como **Javascript, HTML, CSS e Node.JS**. 
 
-Sempre buscando transformar lógica complexa em interfaces simples e funcionais.
+Foco em criar soluções que unam uma lógica de dados robusta com interfaces amigáveis para o usuário final.
 
 ### Entre em contato (Contact me)
 
@@ -34,4 +35,4 @@ Sempre buscando transformar lógica complexa em interfaces simples e funcionais.
 [![GitHub](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=4F0199)](https://github.com/SeuUsuarioAqui)
 
 ---
-*Este projeto foi desenvolvido como um exercício prático de lógica de programação e manipulação de eventos.*
+*Projeto desenvolvido para consolidar conhecimentos em estruturas de repetição e manipulação de tabelas dinâmicas.*
